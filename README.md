@@ -1,130 +1,68 @@
-# Infinity 99 Realty
+# 🏡 Infinity 99 Realty
 
-A modern real estate web application built with React, TypeScript, and Tailwind CSS that helps users explore residential and commercial properties.
+A modern real estate web application built with **React**, **TypeScript**, **Vite**, and **Tailwind CSS**. It allows users to explore residential and commercial properties, view project details, and connect with the Infinity 99 Realty team through a responsive and intuitive interface.
 
-## Features
-- Property Listing
-- Property Details
-- Search & Filters
-- Authentication
-- Admin Dashboard
-- Contact Forms
-- Responsive UI
+## 🚀 Features
 
-## Tech Stack
+- Browse residential & commercial projects
+- View detailed property information
+- Responsive design
+- Contact & inquiry forms
+- Fast navigation with React Router
+
+## 🛠 Tech Stack
+
 - React
 - TypeScript
+- Vite
 - Tailwind CSS
 - React Router
-- API Integration
-- Firebase/Supabase (if used)
 
----
+## 📂 Project Structure
 
-# Project Structure
-
+```text
 src/
+├── assets/
 ├── components/
-├── pages/
-├── layouts/
 ├── hooks/
+├── layouts/
+├── pages/
 ├── services/
 ├── utils/
-├── assets/
-└── App.tsx
+├── App.tsx
+└── main.tsx
+```
 
----
+## 🌐 Application Flow
 
-# Website Flow
-
-Home (/)
-│
+```text
+Home
 ├── About
-│
 ├── Projects
-│   ├── Residential
-│   ├── Commercial
 │   └── Project Details
-│
 ├── Properties
-│   ├── Buy
-│   ├── Rent
 │   └── Property Details
-│
 ├── Blog
-│   └── Blog Details
-│
 ├── Contact
-│
 └── Login
-    └── Dashboard
+```
 
----
+## ⚙️ Getting Started
 
-# Routing Explanation
+```bash
+# Clone repository
+git clone <repository-url>
 
-| Route | Component | Purpose |
-|--------|-----------|---------|
-| / | Home | Landing page |
-| /about | About | Company information |
-| /projects | Projects | All projects |
-| /project/:id | Project Details | Individual project |
-| /contact | Contact | Inquiry form |
-| ... | ... | ... |
-
----
-
-# How the Application Works
-
-1. User lands on Home.
-2. Navbar provides navigation to all pages.
-3. Clicking a property opens its detail page.
-4. Forms send data to the backend.
-5. Authentication protects dashboard routes.
-6. Admin manages listings from dashboard.
-
----
-
-# Folder Explanation
-
-## components
-Reusable UI components like Navbar, Footer, Cards.
-
-## pages
-Contains all application pages.
-
-## layouts
-Common page layouts.
-
-## services
-API calls.
-
-## hooks
-Custom React hooks.
-
-## utils
-Helper functions.
-
----
-
-# Installation
-
+# Install dependencies
 npm install
+
+# Start development server
 npm run dev
 
----
+# Build for production
+npm run build
+```
 
-# Environment Variables
+## 📄 License
 
-VITE_API_URL=
-...
-
----
-
-# Future Improvements
-
-- Payment Gateway
-- Property Comparison
-- Favorites
-- Google Maps
-- AI Property Recommendation
+This project is developed for Infinity 99 Realty.
