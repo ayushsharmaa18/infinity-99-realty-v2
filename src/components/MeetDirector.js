@@ -60,7 +60,7 @@ const MeetDirector = () => {
               {[
                 { num: '6+', label: 'Years Experience' },
                 { num: '500+', label: 'Happy Clients' },
-                { num: '₹10,00Cr+', label: 'Transactions' },
+                { num: '₹1,000Cr+', label: 'Transactions' },
               ].map((stat, i) => (
                 <div key={i} className="bg-gray-800 rounded-xl p-4 text-center border border-gray-700">
                   <p className="text-yellow-400 text-2xl font-extrabold">{stat.num}</p>
