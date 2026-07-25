@@ -1,70 +1,130 @@
-# Getting Started with Create React App
+# Infinity 99 Realty
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern real estate web application built with React, TypeScript, and Tailwind CSS that helps users explore residential and commercial properties.
 
-## Available Scripts
+## Features
+- Property Listing
+- Property Details
+- Search & Filters
+- Authentication
+- Admin Dashboard
+- Contact Forms
+- Responsive UI
 
-In the project directory, you can run:
+## Tech Stack
+- React
+- TypeScript
+- Tailwind CSS
+- React Router
+- API Integration
+- Firebase/Supabase (if used)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Project Structure
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+src/
+├── components/
+├── pages/
+├── layouts/
+├── hooks/
+├── services/
+├── utils/
+├── assets/
+└── App.tsx
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Website Flow
 
-### `npm run build`
+Home (/)
+│
+├── About
+│
+├── Projects
+│   ├── Residential
+│   ├── Commercial
+│   └── Project Details
+│
+├── Properties
+│   ├── Buy
+│   ├── Rent
+│   └── Property Details
+│
+├── Blog
+│   └── Blog Details
+│
+├── Contact
+│
+└── Login
+    └── Dashboard
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Routing Explanation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+| Route | Component | Purpose |
+|--------|-----------|---------|
+| / | Home | Landing page |
+| /about | About | Company information |
+| /projects | Projects | All projects |
+| /project/:id | Project Details | Individual project |
+| /contact | Contact | Inquiry form |
+| ... | ... | ... |
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# How the Application Works
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. User lands on Home.
+2. Navbar provides navigation to all pages.
+3. Clicking a property opens its detail page.
+4. Forms send data to the backend.
+5. Authentication protects dashboard routes.
+6. Admin manages listings from dashboard.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Folder Explanation
 
-## Learn More
+## components
+Reusable UI components like Navbar, Footer, Cards.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## pages
+Contains all application pages.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## layouts
+Common page layouts.
 
-### Code Splitting
+## services
+API calls.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## hooks
+Custom React hooks.
 
-### Analyzing the Bundle Size
+## utils
+Helper functions.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+# Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+npm install
+npm run dev
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# Environment Variables
 
-### Deployment
+VITE_API_URL=
+...
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+# Future Improvements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Payment Gateway
+- Property Comparison
+- Favorites
+- Google Maps
+- AI Property Recommendation
