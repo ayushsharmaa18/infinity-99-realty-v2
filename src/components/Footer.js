@@ -89,7 +89,7 @@ const Footer = () => {
   </p>
   <p className="text-xs text-gray-700">
     Designed & Developed with ❤️ by{' '}
-    <a href="mailto:dhirajkg10@gmail.com" className="text-yellow-500 hover:text-yellow-300 transition font-medium"> Dhiraj Kumar
+    <a href="mailto:earthnodecoworks@gmail.com" className="text-yellow-500 hover:text-yellow-300 transition font-medium"> Earthnode Foundation
     </a>
     {' '}
   </p>
